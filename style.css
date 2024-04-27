@@ -42,3 +42,13 @@ footer {
     bottom: 0;
     width: 100%;
 }
+.right-image {
+    float: right; /* Float the image to the right */
+    margin-left: 20px; /* Add some space between the image and the content */
+}
+
+/* Ensure content does not wrap around the floated image */
+.content {
+    overflow: hidden;
+}
+
