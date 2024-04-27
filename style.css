@@ -1,5 +1,22 @@
 /* Reset default margin and padding */
 *
+.recipe-heading {
+    color: #d9366e; /* Dark pink */
+    /* Add other styles as needed */
+}
+
+/* Contact Page Heading */
+.contact-heading {
+    color: #d9366e; /* Dark pink */
+    /* Add other styles as needed */
+}
+
+/* About Page Heading */
+.about-heading {
+    color: #d9366e; /* Dark pink */
+    /* Add other styles as needed */
+}
+
 .contact-label {
   color: #d9366e; /* Dark pink */
 }
