@@ -96,20 +96,3 @@ footer {
     text-align: center;
     box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.1); /* Add shadow */
 }
-
-/* Tooltip styling */
-.tooltip {
-    display: none;
-    position: absolute;
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 5px;
-    border-radius: 5px;
-    z-index: 1;
-}
-
-/* Show tooltip on hover */
-nav a:hover .tooltip {
-    display: block;
-}
