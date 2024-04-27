@@ -72,8 +72,8 @@ h2 {
 }
 
 p {
-    color: #ff66b3; /* Light pink */
-    line-height: 1.6; /* Increase line height for better readability */
+    color: #ffd3e6; /* Light pink */
+    text-shadow: 1px 1px 2px #000; /* Black shadow */
 }
 
 /* Image styling */
