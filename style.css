@@ -25,9 +25,8 @@ nav a {
     margin: 0 10px;
 }
 
-/* Style the main content */
 main {
-    padding: 20px;
+    padding: 10px 20px; /* Adjust padding to reduce space */
 }
 
 section {
