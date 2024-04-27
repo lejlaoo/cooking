@@ -5,47 +5,89 @@
     box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
 }
 
-/* Style the header */
+/* Body styling */
+body {
+    background-color: #ffd3e6; /* Baby pink */
+    font-family: 'Arial', sans-serif; /* Fallback font */
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+/* Header styling */
 header {
     background-color: #ffffff; /* White */
     padding: 20px;
     text-align: center;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Add shadow */
 }
 
-/* Style the navigation menu */
+header h1 {
+    color: #ff66b3; /* Light pink */
+    font-size: 36px;
+    text-transform: uppercase; /* Uppercase text */
+    letter-spacing: 2px; /* Increase letter spacing */
+}
+
+/* Navigation styling */
 nav {
     background-color: #ffffff; /* White */
     padding: 10px;
     text-align: center;
+    margin-bottom: 20px; /* Add space below navigation */
 }
 
 nav a {
     color: #ff66b3; /* Light pink */
     text-decoration: none;
     margin: 0 10px;
+    transition: color 0.3s; /* Smooth color transition */
 }
 
-/* Style the main content */
+nav a:hover {
+    color: #d9366e; /* Darker pink on hover */
+}
+
+/* Main styling */
 main {
     padding: 20px;
 }
 
 section {
-    margin-bottom: 20px;
+    margin-bottom: 40px; /* Add more space between sections */
     background-color: #ffffff; /* White */
     padding: 20px;
     border-radius: 10px; /* Rounded corners */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Add shadow */
 }
 
-/* Style h2 and p elements */
-h2, p {
+/* Section headings and paragraphs styling */
+h2 {
     color: #ff66b3; /* Light pink */
-    font-family: 'Times New Roman', serif; /* Square serif font */
+    font-size: 24px;
+    margin-bottom: 10px; /* Add space below headings */
 }
 
-/* Style the footer */
+p {
+    color: #444444; /* Dark gray */
+    line-height: 1.6; /* Increase line height for better readability */
+}
+
+/* Image styling */
+.right-image {
+    float: right; /* Float image to the right */
+    margin-left: 20px; /* Add space between image and text */
+    border-radius: 5px; /* Rounded corners for image */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Add shadow */
+    transition: transform 0.3s ease; /* Smooth transformation */
+}
+
+.right-image:hover {
+    transform: scale(1.05); /* Scale up on hover */
+}
+
+/* Footer styling */
 footer {
     background-color: #ffffff; /* White */
     padding: 20px;
     text-align: center;
+    box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.1); /* Add shadow */
 }
