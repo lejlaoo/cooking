@@ -60,3 +60,9 @@ section::after {
     display: table;
     clear: both;
 }
+
+/* Additional styling for text content */
+main section {
+    overflow: auto; /* Clear any floated elements */
+}
+
