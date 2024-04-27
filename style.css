@@ -73,8 +73,9 @@ h2 {
 }
 
 p {
-    color: ##f18db2; /* Light pink */
-    text-shadow: 2px 2px 4px #ee91ae}
+    color: #f18db2; /* Light pink */
+    text-shadow: 2px 2px 4px #ee91ae; /* Shadow with the specified color */
+}
 
 /* Image styling */
 .right-image {
