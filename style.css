@@ -7,7 +7,7 @@
 
 /* Body styling */
 body {
-    background-color: #ffd3e6; /* Baby pink */
+    background-color: #c23052; /* Baby pink */
     font-family: 'Arial', sans-serif; /* Fallback font */
     overflow-x: hidden; /* Hide horizontal scrollbar */
 }
@@ -34,10 +34,12 @@ header {
 
 /* Navigation styling */
 nav {
-    background-color: #ffffff; /* White */
-    padding: 10px;
+    background-color: #ffe2f1; /* White */
+    padding: 17px;
     text-align: center;
-    margin-bottom: 20px; /* Add space below navigation */
+    margin-bottom: 15px; /* Add space below navigation */
+    font-weight:bold;
+
 }
 
 nav a {
@@ -70,7 +72,7 @@ h2 {
     font-size: 28px; /* Increased font size */
     margin-bottom: 10px; /* Add space below headings */
     text-shadow: 1px 1px 2px rgba(0,0,0,0.3); /* Add text shadow */
-    font-size: 36px; /* Increased font size */
+    font-size: 32px; /* Increased font size */
     font-weight: bold; 
 }
 
@@ -106,6 +108,6 @@ p {
 
 /* Footer styling */
 footer {
-    background-color: #ffffff; /* White */
+    background-color: #c68a8a63; /* White */
     padding: 20px;
-    text-align
+    text-align: center;
