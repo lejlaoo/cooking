@@ -42,16 +42,21 @@ footer {
     bottom: 0;
     width: 100%;
 }
+/* Style for the image positioned on the right */
 .right-image {
     float: right; /* Float the image to the right */
-    margin-left: 30px; /* Add some space between the image and the content */
+    margin-left: 20px; /* Add some space between the image and the content */
+    max-width: 40%; /* Limit the image width to 40% of its container */
+}
+
+/* Ensure content does not wrap around the floated image */
+.content {
+    overflow: hidden;
 }
 
 /* Clear floating elements */
-.content::after {
+section::after {
     content: "";
     display: table;
     clear: both;
 }
-
-
