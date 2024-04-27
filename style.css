@@ -28,6 +28,7 @@ header {
     display: inline-block; /* Ensure the background covers the entire text width */
     border-radius: 10px; /* Rounded corners */
     color: #ff66b3; /* Light pink text color */
+    font-family: monospace;
 }
 
 /* Navigation styling */
@@ -72,9 +73,8 @@ h2 {
 }
 
 p {
-    color: #ffd3e6; /* Light pink */
-    text-shadow: 1px 1px 2px #000; /* Black shadow */
-}
+    color: ##f18db2; /* Light pink */
+    text-shadow: 2px 2px 4px #ee91ae}
 
 /* Image styling */
 .right-image {
