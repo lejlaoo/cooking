@@ -28,7 +28,8 @@ header {
     display: inline-block; /* Ensure the background covers the entire text width */
     border-radius: 10px; /* Rounded corners */
     color: #ff66b3; /* Light pink text color */
-    font-family: monospace;
+    font-family: cursive;
+    font-size: 32px;
 }
 
 /* Navigation styling */
