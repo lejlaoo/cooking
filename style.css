@@ -1,5 +1,9 @@
 /* Reset default margin and padding */
-* {
+*
+.contact-label {
+  color: #d9366e; /* Dark pink */
+}
+{
     margin: 0;
     padding: 0;
     box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
