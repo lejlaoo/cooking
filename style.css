@@ -86,7 +86,6 @@ p {
     border-radius: 5px; /* Rounded corners for image */
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Add shadow */
     transition: transform 0.3s ease; /* Smooth transformation */
-    position: relative;
 }
 
 }
@@ -102,23 +101,3 @@ footer {
     text-align: center;
     box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.1); /* Add shadow */
 }
-/* For Home page */
-.home h2 {
-    color: #d9366e; /* Light pink */
-}
-
-/* For Recipes page */
-.recipes h2 {
-    color: #d9366e; /* Purple */
-}
-
-/* For About page */
-.about h2 {
-    color: #d9366e; /* Blue */
-}
-
-/* For Contact page */
-.contact h2 {
-    color: #d9366e; /* Orange */
-}
-
