@@ -24,12 +24,12 @@ header {
     text-transform: capitalize; /* Convert the text to capitalize */
     text-decoration: underline; /* Add underline */
     background-color: #ffd3e6; /* Pastel baby pink background */
-    padding: 10px 20px; /* Add padding for better appearance */
+    padding: 1px 30px; /* Add padding for better appearance */
     display: inline-block; /* Ensure the background covers the entire text width */
-    border-radius: 10px; /* Rounded corners */
+    border-radius: 155px; /* Rounded corners */
     color: #ff66b3; /* Light pink text color */
     font-family: cursive;
-    font-size: 50px;
+    font-size: 40px;
     
 }
 
