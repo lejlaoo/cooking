@@ -102,19 +102,13 @@ h2 {
 }
 
 p {
-    color: #f18db2; /* Light pink */
-    text-shadow: 2px 2px 4px #ee91ae;
-}
+ color: #f18db2; /* Light pink */
+    text-shadow: 2px 2px 4px #ee91ae;}
 
 /* Image styling */
 .right-image {
     float: right; /* Float image to the right */
     margin-left: 20px; /* Add space between image and text */
-    width: 300px; /* Set image width to 300 */
-}
+    width: 300px; /* Set image width to 300
 
-/* Light pink color for specific text */
-ul.ingredients li,
-ol.instructions li {
-    color: #f18db2; /* Light pink */
-}
+    
