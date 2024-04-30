@@ -136,3 +136,11 @@ section p {
     text-shadow: 2px 2px 4px #ee91ae;
 }
 
+section ol {
+    color: #f18db2; /* Light pink */
+}
+
+/* List item styling */
+section li {
+    color: #f18db2; /* Light pink */
+}
