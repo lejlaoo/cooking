@@ -131,5 +131,8 @@ footer {
     display: flex; /* Use Flexbox */
     justify-content: center; /* Center horizontally */
 }
-
+section p {
+    color: #f18db2; /* Light pink */
+    text-shadow: 2px 2px 4px #ee91ae;
+}
 
