@@ -140,8 +140,9 @@ ol {
     color: #f18db2; /* Light pink */
 }
 
-/* List item styling */
+
 li {
     color: #da105b; /* Light pink */
-    font-family:monospace
+    font-family:monospace;
+    font-weight: bold;
 }
