@@ -68,8 +68,7 @@ header {
     font-family: cursive;
     font-size: 50px;
 }
-.#main-heading:hover {
-    transform: scale(1.05);
+
 
 nav {
     background-color: #ffe2f1; /* White */
