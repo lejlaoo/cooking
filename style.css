@@ -1,18 +1,18 @@
-/* Reset default margin and padding */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Body styling */
+
 body {
     background-color: #b95f74;
     font-family: 'Arial', sans-serif;
     overflow-x: hidden;
 }
 
-/* Header styling */
+
 header {
     background-color: #b95f74;
     padding: 20px;
