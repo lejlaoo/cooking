@@ -146,13 +146,17 @@ li {
     font-family:monospace;
     font-weight: bold;
 }
+.recipe-section {
+    margin-left: 10px;
+}
+/* Media query for small screens */
 @media only screen and (max-width: 600px) {
     header {
         padding: 10px;
     }
-section {
-    margin-left: -50px;
-}
-.recipe-section {
-    margin-left: 10px;
-}
+    section {
+        margin-left: -20px; /* Adjust the left margin for smaller screens */
+        margin-right: -20px; /* Adjust the right margin for smaller screens */
+        padding-left: 10px; /* Add left padding for smaller screens */
+        padding-right: 10px; /* Add right padding for smaller screens */
+    }
