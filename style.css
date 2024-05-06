@@ -152,7 +152,7 @@ li {
 /* Media query for small screens */
 @media only screen and (max-width: 600px) {
     header {
-        padding: 10px;
+        padding: 40px;
     }
     section {
         margin-left: -20px; /* Adjust the left margin for smaller screens */
