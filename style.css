@@ -204,7 +204,8 @@ li {
         font-size: 30px;
     }
     .right-image,
-    .left-image {
+    .left-image
+    .feedback-image {
         width: 20%; /* Make images full-width */
         margin: 0; /* Remove margin */
         float: none; /* Remove float */
