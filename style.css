@@ -241,3 +241,15 @@ li {
 .icon-image:hover {
     transform: scale(1.05);
 }
+
+.feedback-image {
+    float: right; 
+    margin-left: 20px; 
+    border-radius: 5px; 
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s ease; 
+    margin-top: -70px; 
+}
+.feedback-image:hover {
+    transform: scale(1.05);
+}
