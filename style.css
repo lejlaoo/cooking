@@ -184,3 +184,11 @@ li {
         padding-left: 20px; /* Add left padding for smaller screens */
         padding-right: -20px; /* Add right padding for smaller screens */
     }
+h3 {
+    color: #ff66b3; /* Light pink */
+    font-size: 24px; /* Adjust font size as needed */
+    margin-bottom: 10px; /* Add space below headings */
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.3); /* Add text shadow */
+    font-weight: bold;
+    
+}
