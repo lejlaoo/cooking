@@ -133,6 +133,7 @@ p {
 .right-image {
     float: right; /* Float image to the right */
     margin-left: 20px; /* Add space between image and text */
+    margin-top: -20px;
     width: 300px; /* Set image width to 300 */
     border-radius: 5px; /* Rounded corners for image */
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Add shadow */
@@ -191,13 +192,4 @@ li {
     text-shadow: 1px 1px 2px rgba(0,0,0,0.3); /* Add text shadow */
     font-weight: bold;
     
-}
-.second-image {
-    float: right; /* Float the second image to the right */
-    margin-left: 20px; /* Add space between image and text */
-    margin-top: -20px; /* Adjust the margin to move the image upwards */
-    width: 300px; /* Set image width to 300 */
-    border-radius: 5px; /* Rounded corners for image */
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Add shadow */
-    transition: transform 0.3s ease; /* Smooth transformation */
 }
