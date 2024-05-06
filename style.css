@@ -227,3 +227,6 @@ li {
     transition: transform 0.3s ease; /* Smooth transformation */
     margin-top: -70px; /* Adjust margin-top to move the image upwards */
 }
+.spaghetti-image:hover {
+    transform: scale(1.05); /* Scale up on hover */
+}
