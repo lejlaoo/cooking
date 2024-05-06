@@ -2,91 +2,49 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
+    box-sizing: border-box;
 }
 
 /* Body styling */
 body {
-    background-color: #b95f74; /* Baby pink */
-    font-family: 'Arial', sans-serif; /* Fallback font */
-    overflow-x: hidden; /* Hide horizontal scrollbar */
+    background-color: #b95f74;
+    font-family: 'Arial', sans-serif;
+    overflow-x: hidden;
 }
 
 /* Header styling */
 header {
-    background-color: #b95f74; /* White */
+    background-color: #b95f74;
     padding: 20px;
     text-align: center;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Add shadow */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
 }
-#contact-heading {
-    text-transform: capitalize; /* Convert the text to capitalize */
-    text-decoration: underline; /* Add underline */
-    background-color: #ffd3e6; /* Pastel baby pink background */
-    padding: 1px 30px; /* Add padding for better appearance */
-    display: inline-block; /* Ensure the background covers the entire text width */
-    border-radius: 155px; /* Rounded corners */
-    color: #ff66b3; /* Light pink text color */
+#contact-heading, #about-heading, #recipes-heading, #main-heading {
+    text-transform: capitalize;
+    text-decoration: underline;
+    background-color: #ffd3e6;
+    padding: 1px 30px;
+    display: inline-block;
+    border-radius: 155px;
+    color: #ff66b3;
     font-family: cursive;
     font-size: 40px;
-    
 }
-#about-heading {
-    text-transform: capitalize; /* Convert the text to capitalize */
-    text-decoration: underline; /* Add underline */
-    background-color: #ffd3e6; /* Pastel baby pink background */
-    padding: 1px 30px; /* Add padding for better appearance */
-    display: inline-block; /* Ensure the background covers the entire text width */
-    border-radius: 155px; /* Rounded corners */
-    color: #ff66b3; /* Light pink text color */
-    font-family: cursive;
-    font-size: 40px;
-    
-}
-
-#recipes-heading {
-    text-transform: capitalize; /* Convert the text to capitalize */
-    text-decoration: underline; /* Add underline */
-    background-color: #ffd3e6; /* Pastel baby pink background */
-    padding: 1px 30px; /* Add padding for better appearance */
-    display: inline-block; /* Ensure the background covers the entire text width */
-    border-radius: 155px; /* Rounded corners */
-    color: #ff66b3; /* Light pink text color */
-    font-family: cursive;
-    font-size: 40px;
-    
-}
-
-#main-heading {
-    text-transform: capitalize; /* Convert the text to capitalize */
-    text-decoration: underline; /* Add underline */
-    background-color: #ffd3e6; /* Pastel baby pink background */
-    padding: 10px 20px; /* Add padding for better appearance */
-    display: inline-block; /* Ensure the background covers the entire text width */
-    border-radius: 10px; /* Rounded corners */
-    color: #ff66b3; /* Light pink text color */
-    font-family: cursive;
-    font-size: 50px;
-}
-
 nav {
-    background-color: #ffe2f1; /* White */
+    background-color: #ffe2f1;
     padding: 17px;
     text-align: center;
-    margin-bottom: 15px; /* Add space below navigation */
+    margin-bottom: 15px;
     font-weight:bold;
-
 }
-
 nav a {
-    color: #ff66b3; /* Light pink */
+    color: #ff66b3;
     text-decoration: none;
     margin: 0 10px;
-    transition: color 0.3s; /* Smooth color transition */
+    transition: color 0.3s;
 }
-
 nav a:hover {
-    color: #d9366e; /* Darker pink on hover */
+    color: #d9366e;
 }
 
 /* Main styling */
@@ -95,105 +53,94 @@ main {
 }
 
 section {
-    margin-bottom: 40px; /* Add more space between sections */
-    background-color: #f5e1e1; /* White */
+    margin-bottom: 40px;
+    background-color: #f5e1e1;
     padding: 20px;
-    border-radius: 10px; /* Rounded corners */
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Add shadow */
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 /* Section headings and paragraphs styling */
 h2 {
-    color: #ff66b3; /* Light pink */
-    font-size: 28px; /* Increased font size */
-    margin-bottom: 10px; /* Add space below headings */
-    text-shadow: 1px 1px 2px rgba(0,0,0,0.3); /* Add text shadow */
-    font-size: 32px; /* Increased font size */
+    color: #ff66b3;
+    font-size: 32px;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
     font-weight: bold; 
 }
-
-/* Specific styles for different sections */
-.recipe-heading,
-.contact-heading,
-.about-heading {
-    color: #d9366e; /* Dark pink */
-    /* Add other styles as needed */
+.recipe-heading, .contact-heading, .about-heading {
+    color: #d9366e;
 }
-
 .contact-label {
-    color: #d9366e; /* Dark pink */
+    color: #d9366e;
 }
-
 p {
- color: #e1c2cd; /* Light pink */
-    text-shadow: 2px 2px 4px #ee91ae;}
-
-
-.right-image {
-    float: right; /* Float image to the right */
-    margin-left: 20px; /* Add space between image and text */
-    width: 250px; /* Set image width to 300 */
-    border-radius: 5px; /* Rounded corners for image */
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Add shadow */
-    transition: transform 0.3s ease; /* Smooth transformation */
+    color: #e1c2cd;
+    text-shadow: 2px 2px 4px #ee91ae;
 }
-
+.right-image {
+    float: right;
+    margin-left: 20px;
+    width: 250px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
 .right-image:hover {
-    transform: scale(1.05); /* Scale up on hover */
+    transform: scale(1.05);
 }
 
 /* Footer styling */
 footer {
-    background-color: #c68a8a63; /* White */
+    background-color: #c68a8a63;
     padding: 20px;
     text-align: center;
     position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;
-    display: flex; /* Use Flexbox */
-    justify-content: center; /* Center horizontally */
+    display: flex;
+    justify-content: center;
 }
 section p {
-    color: #f18db2; /* Light pink */
+    color: #f18db2;
     text-shadow: 2px 2px 4px #ee91ae;
 }
-
 ol {
-    color: #f18db2; /* Light pink */
+    color: #f18db2;
 }
-
-
 li {
-    color: #da105b; /* Light pink */
+    color: #da105b;
     font-family:monospace;
     font-weight: bold;
 }
 .recipe-section {
     margin-left: -10px;
 }
-    section {
-        margin-left: -20px; /* Adjust the left margin for smaller screens */
-        margin-right: -20px; /* Adjust the right margin for smaller screens */
-        padding-left: 20px; /* Add left padding for smaller screens */
-        padding-right: -20px; /* Add right padding for smaller screens */
-    }
- h3 {
-    color: #ff66b3; /* Light pink */
-    font-size: 24px; /* Adjust font size as needed */
-    margin-bottom: 10px; /* Add space below headings */
-    text-shadow: 1px 1px 2px rgba(0,0,0,0.3); /* Add text shadow */
-    font-weight: bold;
-    
+
+section {
+    margin-left: -20px;
+    margin-right: -20px;
+    padding-left: 20px;
+    padding-right: -20px;
 }
-.chocolate-cake-image.right-image {
-    float: right; /* Float image to the right */
-    margin-left: 20px; /* Add space between image and text */
-    width: 400px; /* Set image width */
-    border-radius: 5px; /* Rounded corners for image */
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Add shadow */
-    transition: transform 0.3s ease; /* Smooth transformation */
-    margin-top: 70px; /* Adjust margin-top to move the image upwards */
+h3 {
+    color: #ff66b3;
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+    font-weight: bold;
+}
+.chocolate-cake-image.right-image, .spaghetti-image, .icon-image, .feedback-image {
+    float: right;
+    margin-left: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    margin-top: -70px;
+}
+.spaghetti-image:hover, .icon-image:hover, .feedback-image:hover {
+    transform: scale(1.05);
 }
 /* Media query for smaller screens (mobile) */
 @media only screen and (max-width: 500px) {
@@ -204,52 +151,16 @@ li {
         font-size: 30px;
     }
     .right-image,
-    .left-image
+    .left-image,
     .feedback-image {
-        width: 20%; /* Make images full-width */
-        margin: 0; /* Remove margin */
-        float: none; /* Remove float */
+        width: 20%;
+        margin: 0;
+        float: none;
     }
 }
-
 /* Media query for larger screens (desktop) */
 @media only screen and (min-width: 601px) {
     .heading {
         font-size: 40px;
     }
-}
-.spaghetti-image {
-    float: right; /* Float image to the right */
-    margin-left: 20px; /* Add space between image and text */
-    width: 400px; /* Set image width */
-    border-radius: 5px; /* Rounded corners for image */
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Add shadow */
-    transition: transform 0.3s ease; /* Smooth transformation */
-    margin-top: -70px; /* Adjust margin-top to move the image upwards */
-}
-.spaghetti-image:hover {
-    transform: scale(1.05); /* Scale up on hover */
-}
-.icon-image {
-    float: right; 
-    margin-left: 20px; 
-    border-radius: 5px; 
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); 
-    transition: transform 0.3s ease; 
-    margin-top: -70px; 
-}
-.icon-image:hover {
-    transform: scale(1.05);
-}
-
-.feedback-image {
-    float: right; 
-    margin-left: 20px; 
-    border-radius: 5px; 
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); 
-    transition: transform 0.3s ease; 
-    margin-top: -70px; 
-}
-.feedback-image:hover {
-    transform: scale(1.05);
 }
