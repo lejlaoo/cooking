@@ -146,10 +146,10 @@ li {
     font-family:monospace;
     font-weight: bold;
 }
-.recipe-section {
-    margin-left: 50px;
-}
 @media only screen and (max-width: 600px) {
     header {
         padding: 10px;
     }
+section {
+    margin-left: -50px;
+}
