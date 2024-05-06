@@ -187,14 +187,14 @@ li {
     font-weight: bold;
     
 }
-.chocolate-cake-image.left-image {
+.chocolate-cake-image.right-image {
     float: right; /* Float image to the right */
     margin-left: 20px; /* Add space between image and text */
     width: 400px; /* Set image width */
     border-radius: 5px; /* Rounded corners for image */
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Add shadow */
     transition: transform 0.3s ease; /* Smooth transformation */
-    margin-top: -70px; /* Adjust margin-top to move the image upwards */
+    margin-top: 70px; /* Adjust margin-top to move the image upwards */
 }
 /* Media query for smaller screens (mobile) */
 @media only screen and (max-width: 600px) {
