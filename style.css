@@ -205,7 +205,7 @@ li {
     }
     .right-image,
     .left-image {
-        width: 100%; /* Make images full-width */
+        width: 50%; /* Make images full-width */
         margin: 0; /* Remove margin */
         float: none; /* Remove float */
     }
